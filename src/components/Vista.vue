@@ -267,7 +267,7 @@ p {
   margin-bottom: 1.5rem;
 }
 
-/* Alerta */
+
 .alerta {
   margin-bottom: 1rem;
   animation: slideDown 0.3s ease-out;
@@ -327,7 +327,6 @@ p {
   }
 }
 
-/* Selectores */
 .selectores {
   display: flex;
   gap: 1rem;
@@ -402,7 +401,6 @@ p {
   transform: translateY(-1px);
 }
 
-/* Matriz container */
 .matriz-container {
   display: flex;
   justify-content: center;
@@ -512,7 +510,6 @@ p {
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
 }
 
-/* Resultados */
 .resultados-wrapper {
   margin-top: 2rem;
   background: #1f1f1f;
@@ -546,7 +543,6 @@ p {
   font-weight: 600;
 }
 
-/* Soluciones */
 .soluciones-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -612,8 +608,6 @@ p {
   color: #f9fafb;
 }
 
-
-/* Responsive */
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
@@ -647,7 +641,6 @@ p {
   }
 }
 
-/* Animaciones */
 @keyframes fadeIn {
   from {
     opacity: 0;
